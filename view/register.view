@@ -1,0 +1,5 @@
+<form method="post">
+<input name="person[name]" type="text" placeholder="nome">
+<input name="person[email]" type="email" placeholder="email">
+<input type="submit" value="save">
+</form>
