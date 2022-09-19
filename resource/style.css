@@ -33,10 +33,21 @@ form input{
     padding: 0 0.5rem;
 }
 
+.erro{
+    border: 1px solid #dc3545;
+}
+.mensagem-erro{
+    font-size: .7rem;
+    color: #dc3545;
+}
+.mensagem-sucesso p{
+    color: #28a745;
+    font-weight: 600;
+}
 form button{
     height: 40px;
     margin-top: 2rem;
-    background-color: rgb(5, 66, 248);
+    background-color: #007bff;
     color: #fff;
     border: none;
     font-size: 1rem;
@@ -54,8 +65,8 @@ a{
 }
 .info{
     display: flex;
-    background: #c8c0f6;
     padding: 1rem;
+    gap: 1rem;
     border-radius: 4px;
     box-shadow: 4px 10px 5px 0px rgb(0 0 0 / 40%);
 }
@@ -88,8 +99,10 @@ img{
     font-size: 0.9rem;
 }
 
-.delete img{
+.icones img{
     width: 30px;
     cursor: pointer;
+    margin-right: 1rem;
+   
 
 }

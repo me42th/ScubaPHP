@@ -11,16 +11,24 @@
 <body>
     <a href="./?page=login&from=register"><h1>Scuba<span>PHP</span></h1></a>
     <form action="/?page=register&from=register" method="POST">
-        <p>Cadastre um novo usuário</p>
+        <p>Cadastre Um Novo Usuário</p>
+        <div class="mensagem-sucesso">
+            <p>Mensagem de Sucesso</p>
+        </div>
         <label for="nome">Nome</label>
-        <input type="text" name="person[name]">
+        <input type="text" name="person[name]" required>
+        <span class="mensagem-erro">Mensagem de Erro</span>
         <label for="email">E-mail</label>
-        <input type="text" name="person[email]>
+        <input type="email" name="person[email]" required>
+        <span class="mensagem-erro">Mensagem de Erro</span>
         <label for="senha">Senha</label>
-        <input type="password" name="person[password]">
+        <input type="password" name="person[password]" required>
+        <span class="mensagem-erro">Mensagem de Erro</span>
         <label for="repita-senha">Repita Senha</label>
-        <input type="password" name="person[password-confirm]">
+        <input type="password" name="person[password-confirm]" required>
+        <span class="mensagem-erro">Mensagem de Erro</span>
         <input type="submit" value="Salvar">
+
     </form>
 </body>
 </html>

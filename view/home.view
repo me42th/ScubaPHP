@@ -9,20 +9,31 @@
     <title>Login</title>
 </head>
 <body>
+    <div class="mensagem-sucesso">
+        <p>Mensagem de Sucesso</p>
+    </div>
     <h1>Scuba<span>PHP</span></h1>
+
     <div class="info">
         <div class="imagemPerfil">
             <img src="./resource/elephant.png">
         </div>
         <div class="dados">
             <div class="info-dados">
+                <span class="mensagem-erro">Mensagem de Erro</span>
                 <p>Nome do Usuário:{{name}}</p>
                 <p>Email do Usuário:{{email}}</p>
             </div>
             <div class="delete">
-                <img src="./resource/trash-outline.svg" alt="">
+                <a href="./?page=login&from=logout">
+                    <img src="./resource/exit-outline.svg">
+                </a>
+                <a href="./?page=login&from=delete-account">
+                    <img src="./resource/trash-outline.svg">
+                </a>
             </div>
         </div>
     </div>
+
 </body>
 </html>
