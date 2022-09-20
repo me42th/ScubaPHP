@@ -9,7 +9,7 @@
     <title>Registre</title>
 </head>
 <body>
-    <a href="./?page=login&from=register"><h1>Scuba<span>PHP</span></h1></a>
+    <a href="./?page=login"><h1>Scuba<span>PHP</span></h1></a>
     <form action="/?page=register&from=register" method="POST">
         <p>Cadastre Um Novo Usuário</p>
         <div class="mensagem-sucesso">
