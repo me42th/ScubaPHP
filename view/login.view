@@ -22,7 +22,7 @@
         <span class="mensagem-erro">Mensagem de Erro</span>
         <button>Entrar</button>
         <a href="./?page=register">Cadastrar Usuário</a>
-        <a href="./?page=forget_password">Esqueci Minha Senha</a>
+        <a href="./?page=forget-password">Esqueci Minha Senha</a>
     </form>
 </body>
 </html>
