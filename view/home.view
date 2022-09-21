@@ -21,14 +21,14 @@
         <div class="dados">
             <div class="info-dados">
                 <span class="mensagem-erro">Mensagem de Erro</span>
-                <p>Nome do Usuário:{{name}}</p>
-                <p>Email do Usuário:{{email}}</p>
+                <p>Nome do Usuário:{{field_name}}</p>
+                <p>Email do Usuário:{{field_email}}</p>
             </div>
             <div class="delete">
-                <a href="./?page=login&from=logout">
+                <a href="./?page=logout&from=home">
                     <img src="./resource/exit-outline.svg">
                 </a>
-                <a href="./?page=login&from=delete-account">
+                <a href="./?page=delete-account&from=home">
                     <img src="./resource/trash-outline.svg">
                 </a>
             </div>
